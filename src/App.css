@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    background-size: 5000% 5000%;
+    background-repeat: no-repeat;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .logo {
+    margin-top: -15px;
+  }
